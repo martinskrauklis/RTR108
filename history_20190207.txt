@@ -1,0 +1,38 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/martinskrauklis/RTR108
+    4  la
+    5  ls
+    6  cd RTR108
+    7  ls
+    8  cat README.md
+    9  nano README.md
+   10  ls
+   11  la
+   12  ls -lt
+   13  nano README.md
+   14  ls -lt
+   15  git config --global user.email glyzeris@gmail.com
+   16  git add .
+   17  git commit -m "20190207_14_55_pirmais_commits"
+   18  git push origin master
+   19  nano README.md
+   20  git commit -m "20190207_15_00_otrais_commits"
+   21  git config --global user.email glyzeris@gmail.com
+   22  git add .
+   23  git commit -m "20190207_15_00_otrais_commits"
+   24  git push origin master
+   25  nano git-upload
+   26  ./git-upload
+   27  ./git-upload 20190207_15_10
+   28  ./git-upload -20190207_15_10
+   29  chmod 740 git-upload
+   30  ls 
+   31  ls -a
+   32  ls -lt
+   33  ./git-upload
+   34  ./git-upload -20190207_15_10
+   35  ./git-upload 20190207_15_10
+   36  nano git-upload
+   37  history
+   38  history > history_20190207.txt
