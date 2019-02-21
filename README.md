@@ -6,8 +6,8 @@ rinda 2
 rinda 3  
 
 ## 4. nodarbība
+---------------------------------------------------------
 Nodarbības laikā atkārtotas komandas, un to nozīme:
----------------------------------------------------
 uname      |operētājsistēma  
 uname -a   |operētājsistēma, detalizēti  
 echo $0    |lietotais interpretators  
