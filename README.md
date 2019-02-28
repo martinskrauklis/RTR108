@@ -46,3 +46,28 @@ ir iekļaut šajā komandā "$PATH", pretējā
 gadījumā būs auzas, jo patreiz lietotās mapes  
 tiks nodzēstas (komanda nevis papildina esošo  
 sarakstu, bet veido no jauna).  
+
+
+## 5. Nodarbība
+
+Skripti iekš shell
+
+Mainīgie drīkst sastāvēt no burtiem, skaitļiem 
+un apakšsvītras, kā arī tiek ir jāsākas ar burtu.
+
+Mainīgā_nosaukums = mainīgā_vērtība - ja vērtība
+tiek piešķirta teksta veidā, to nepieciešams likt
+pēdiņās. Ja šī vērtība ir skaitlis - tādā gadījumā
+pēdiņas nav nepieciešamas.
+
+readonly NAME - mainīgais NAME tiek saglabāts ar 
+atribūtu "tikai lasāms".
+
+unset NAME - mainīgais NAME tiek atiestatīts, tā
+vērtība tiek iestatīta kā tukšums.
+
+read NAME - tiek pieprasīta datu ievade, no kuras 
+ievadītie dati tiek saglabāti mainīgajā NAME.
+
+echo $NAME - tiek attēlots mainīgais NAME.
+
