@@ -73,34 +73,23 @@ echo $NAME - tiek attēlots mainīgais NAME.
 
 $0 - patreizējā skripta nosaukums.
 
-$n - these variables correspond to the arguments with which a script was invoked. Here n is a positive decimal number corresponding to the position of an argument (the first argument is $1, the second argument is $2, and so on).
-3 	
+$n - attēlo argumentu, ar kādu skripts ir palaists.
+"n" ir argumenta numurs, kurš pēc kārtas.
 
-$#
+$# Kopējais argumentu skaits.
 
-The number of arguments supplied to a script.
-4 	
+$@ - (vai  $ ar zvaigznīti) tiek attēloti visi
+argumenti.
 
-$*
+$? - iepriekšējās komandas exit statuss. Tiek 
+parādītas kļūdas, ja tādas ir komandas izpildē.
 
-All the arguments are double quoted. If a script receives two arguments, $* is equivalent to $1 $2.
-5 	
+$$ - parāda procesa ID.
 
-$@
+NAME[n] - vērtība tiek saglabāta masīvā NAME ar 
+indeksu n. 
 
-All the arguments are individually double quoted. If a script receives two arguments, $@ is equivalent to $1 $2.
-6 	
+echo "${NAME[n]}" - parāda masīva elementu ar
+indeksu "n". Ja "n" vietā ievietojam zvaigznīti
+vai @, tiks parādīts viss masīvs.
 
-$?
-
-The exit status of the last command executed.
-7 	
-
-$$
-
-The process number of the current shell. For shell scripts, this is the process ID under which they are executing.
-8 	
-
-$!
-
-The process number of the last background command.
